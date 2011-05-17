@@ -1,0 +1,4 @@
+- Support the HTTP and HTTPS in parallel using method described http://www.simonecarletti.com/blog/2011/05/configuring-rails-3-https-ssl/
+  Overload the config.force_ssl option with symbols
+  config.force_ssl = true
+  config.force_ssl = :https_only
